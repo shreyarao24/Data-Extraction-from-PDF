@@ -30,6 +30,6 @@ After getting the text file, I used OpenRefine to convert my text file into a CS
 
 Although the data has now been successfully converted into a .csv file, it is still very messy. Although our text file had the data organized into columns, when exported by OpenRefine, each row of data was compressed into a single column. 
 
-
+![](images/Screenshot 2021-02-21 130526.png)
 
 ## Algorithm #1
