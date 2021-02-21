@@ -30,6 +30,10 @@ After getting the text file, I used OpenRefine to convert my text file into a CS
 
 Although the data has now been successfully converted into a .csv file, it is still very messy. Although our text file had the data organized into columns, when exported by OpenRefine, each row of data was compressed into a single column. 
 
-![](images/Screenshot 2021-02-21 130526.png)
+<img src="images/Screenshot 2021-02-21 130526.png">
+
+Furthermore, the data was not present on a single line either - in many cases, the data for each student was stored on 2 rows, or even 4 rows. 
+
+To extract data from the raw CSV file, I used the pandas module in Python 3.
 
 ## Algorithm #1
