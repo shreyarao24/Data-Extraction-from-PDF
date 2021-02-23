@@ -40,6 +40,20 @@ To extract data from the raw CSV file, I used the pandas module in Python 3. I h
 
 The first PDF was orgnaized like this - 
 
+<img src="Screenshot 2021-02-23 175644">
+
+The data for each student was present on only a single row, so it was easy to extract the required data, which was - the serial number, the name, the student ID, the gender, and the grade. 
+
+
+To access rows one at a time, I looped through the dataframe using **pandas.DataFrame.itertuples()**, and then split each row into a list. The serial number was the first element in each row, so we had to access only the firt element:
+
+```
+sr_no = r[0]
+```
+
+The student ID was separated into 3 parts, since the 
+
+
 
 
 
