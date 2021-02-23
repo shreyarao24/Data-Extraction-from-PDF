@@ -12,7 +12,7 @@ First, the PDFs were converted into text files using XpdfReader. XpdfReader (htt
 
 1. Download XpdfReader and unzip the file. The doc folder contains all documentation for the different XpdfReader applications, and the bin32 folder contains all the applications.
 2. Create a new folder called 'test' and copy the pdftotext application from the bin32 folder to the test folder. This folder should contain nothing but the pdftotext application and the PDF file you wish to convert.
-3. Using the command prompt, navigate to your test folder and use the pdftotext application to convert your PDF file to a text file. There are many different options to choose from to decide the layout of your text file (which are outlined in the documentation). I used the 'table' option so that all the columns in my PDF file are aligned in my text file.
+3. Using the command prompt, navigate to your test folder and use the pdftotext application to convert your PDF file to a text file. There are many different options to choose from to decide the layout of your text file (which are outlined in the documentation). I used the 'table' option so that when created, all the columns in my text file would be aligned.
 
 ```
 C:\Users\Shreya>cd Desktop/test
@@ -34,6 +34,12 @@ Although the data has now been successfully converted into a .csv file, it is st
 
 Furthermore, the data was not present on a single line either - in many cases, the data for each student was stored on 2 rows, or even 4 rows. 
 
-To extract data from the raw CSV file, I used the pandas module in Python 3.
+To extract data from the raw CSV file, I used the pandas module in Python 3. I had to create 3 different algorithms based on the structure of the PDF file.
 
 ## Algorithm #1
+
+The first PDF was orgnaized like this - 
+
+
+
+
